@@ -1,0 +1,65 @@
+@import "../../variables.scss";
+
+.navbar{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.nav__address, .nav__phone{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.address, .phone__num{
+    text-decoration: none;
+    color: gray;
+}
+.white__circle{
+    background-color: #FFFFFF;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
+.logo{
+    margin: 0 30px;
+}
+.fc__wrapper, .language{
+    background-color: #FFFFFF;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    gap: 8px;
+    color: $title-color;
+    text-decoration: none;
+}
+.second__navbar{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    gap: 1px;
+    height: 70px;
+}
+.nav__second__link{
+    background-color: #FFFFFF;
+    display: grid;
+    padding: 0 48px;
+    place-items: center;
+    text-decoration: none;
+    color: $title-color;
+    font-weight: 600;
+    height: 100%;
+    &:first-child{
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+    &:last-child{
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+    &:hover{
+        color: #00C9C9;
+    }
+}

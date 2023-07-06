@@ -1,0 +1,26 @@
+@import "../../variables.scss";
+.hero{
+    padding: 50px 50px;
+    background-image: url(../../assets/back.png);
+}
+.hero__child{
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+.hero__text{
+    max-width: 680px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    h1{
+        color: $title-color;
+        font-size: 50px;
+        line-height: 50px;
+        font-weight: 500;
+    }
+    p{
+        line-height: 25px;
+        color: $description-color;
+    }
+}

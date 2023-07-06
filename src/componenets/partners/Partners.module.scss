@@ -1,0 +1,23 @@
+@import "../../variables.scss";
+
+.partners__wrapper{
+    text-align: center;
+    padding: 0 50px;
+    margin-top: 80px;
+    h2{
+        color: $title-color;
+        font-size: 40px;
+        font-weight: 500;
+    }
+}
+.partners{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+.partners__card{
+    border: 1px solid #ECECEC;
+    border-radius: 30px;
+}

@@ -1,0 +1,56 @@
+@import "../../variables.scss";
+
+.products__wrapper{
+    text-align: center;
+    h2{
+        margin: 50px 0;
+        font-size: 40px;
+        font-weight: 500;
+        color: $title-color;
+    }
+}
+.products{
+    padding: 0 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 80px;
+
+}
+.product__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    max-width: 413px;
+    height: 439px;
+    background-color: #F3F3F3;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: #FFFF 0px -50px 36px -28px inset;
+    text-decoration: none;
+    h3{
+        color: $description-color;
+        font-size: 24px;
+        font-weight: 400;
+    }
+    img{
+        width: 180px;
+        height: 200px;
+        object-fit: contain;
+    }
+}
+.toCatalog{
+    color: $title-color;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    &:hover{
+        color: #00C9C9;
+    }
+}

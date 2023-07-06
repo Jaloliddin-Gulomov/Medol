@@ -1,0 +1,31 @@
+@import "../../variables.scss";
+
+.news__wrapper{
+    padding: 0 50px;
+    text-align: center;
+    margin-top: 100px;
+    h2{
+        color: $title-color;
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 50px;
+    }
+}
+.news__links{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.seeAll__news{
+    color: $title-color;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    &:hover{
+        color: #00C9C9;
+    }
+}

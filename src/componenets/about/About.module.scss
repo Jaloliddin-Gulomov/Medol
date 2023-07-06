@@ -1,0 +1,26 @@
+@import "../../variables.scss";
+
+.about__wrapper{
+    padding: 0 50px;
+    text-align: center;
+    h2{
+        color: $title-color;
+        font-size: 40px;
+        font-weight: 500;
+    }
+}
+.about{
+    text-align: start;
+    padding: 50px 30px 50px 280px;
+    background-color: #F5F5F5;
+    border-radius: 0 50px 50px 0;
+    margin-top: 50px;
+    box-shadow: #FFFF 0px -50px 36px -28px inset;
+    margin-left: 400px;
+    p{
+        line-height: 33px;
+    }
+}
+.about__btn{
+    margin-top: 50px;
+}
